@@ -17,25 +17,23 @@
 .div1{
     background-color: var(--element1-background-color);
     border: var(--border-color);
-    margin: var(--margin);
     font-size: var(--font-size);
     width:var(--width);
-    margin-left:var(--margin-left);
+    margin: var(--margin);
 }
 .div2{
     background-color: var(--element2-background-color);
     border: var(--border-color);
-    margin: var(--margin);
     font-size: var(--font-size);
     width:var(--width);
-    margin-left:var(--margin-left);
+    margin: var(--margin);
 }
 .div3{
     background-color: var(--element3-background-color);
     border: var(--border-color);
-    margin: var(--margin);
     font-size: var(--font-size);
-    width:var(--width);
-    margin-left:var(--margin-left);
     color: var(--element3-text-color);
+    width:var(--width);
+    margin: var(--margin);
+
 }
