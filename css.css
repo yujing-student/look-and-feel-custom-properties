@@ -6,45 +6,46 @@
     --element3-text-color: #f66e6e;
 
     /*styling*/
-    --border-color:solid #fdf715 0.5em;
-    --font-size:2em;
-    --font-family: Arial,sans-serif;
+    --border-color: solid #fdf715 0.5em;
+    --font-size: 2em;
+    --font-family: Arial, sans-serif;
 
     /*grootte en position*/
-    --width:30em;
-    --margin-left:5em;
-    --margin:0.5em;
+    --width: 30em;
+    --margin-left: 5em;
+    --margin: 0.5em;
 }
-.div1{
+
+.div1 {
     background-color: var(--element1-background-color);
     border: var(--border-color);
     font-size: var(--font-size);
-    font-family:var(--font-family);
-    width:var(--width);
+    font-family: var(--font-family);
+    width: var(--width);
     margin: var(--margin);
 }
-.div2{
+
+.div2 {
     background-color: var(--element2-background-color);
     /*styling*/
     border: var(--border-color);
     /*font*/
     font-size: var(--font-size);
-    font-family:var(--font-family);
+    font-family: var(--font-family);
     /*groote witruimte*/
-    width:var(--width);
+    width: var(--width);
     margin: var(--margin);
 }
-.div3{
+
+.div3 {
     background-color: var(--element3-background-color);
     /*styling*/
     border: var(--border-color);
     /*font*/
     font-size: var(--font-size);
-    font-family:var(--font-family);
+    font-family: var(--font-family);
     color: var(--element3-text-color);
     /*groote witruimte*/
-    width:var(--width);
+    width: var(--width);
     margin: var(--margin);
-
-
 }
