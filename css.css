@@ -1,9 +1,10 @@
 :root {
     /*elementen*/
-    --element1-background-color: #990000;
-    --element2-background-color: #ffc2c2;
+    --element1-background-color: #ff6a6a;
+    --element2-background-color: #c2ffc7;
     --element3-background-color: #365db7;
     --element3-text-color: #f66e6e;
+    --h1:3em;
 
     /*styling*/
     --border-color: solid #fdf715 0.5em;
@@ -11,17 +12,25 @@
     --font-family: Arial, sans-serif;
 
     /*grootte en position*/
-    --width: 30em;
+    --width: 40em;
+    --height:10em;
     --margin-left: 5em;
     --margin: 0.5em;
 }
-
+h1{
+    font-size: var(--h1);
+}
 .div1 {
     background-color: var(--element1-background-color);
+    /*styling*/
     border: var(--border-color);
+
+    /*font*/
     font-size: var(--font-size);
     font-family: var(--font-family);
+    /*groote witruimte*/
     width: var(--width);
+    height: var(--height);
     margin: var(--margin);
 }
 
@@ -33,6 +42,7 @@
     font-size: var(--font-size);
     font-family: var(--font-family);
     /*groote witruimte*/
+    height: var(--height);
     width: var(--width);
     margin: var(--margin);
 }
@@ -46,6 +56,7 @@
     font-family: var(--font-family);
     color: var(--element3-text-color);
     /*groote witruimte*/
+    height: var(--height);
     width: var(--width);
     margin: var(--margin);
 }
