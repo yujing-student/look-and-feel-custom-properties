@@ -1,0 +1,46 @@
+html {
+    --element1-background-color: #990000;
+    --element2-background-color: #ffc2c2;
+    --element3-background-color: #365db7;
+
+    --border-color:solid #663399FF 0.5em;
+    --margin:0.5em;
+
+    --font-size:1em;
+    --width:30em;
+    --margin-left:5em;
+
+
+    --transparent-black: rgba(0, 0, 0, 0.5);
+
+    --spacing: 0.66rem;
+    --max-reading-length: 70ch;
+    --brandAngle: 22deg;
+
+    --visibility: hidden;
+    --my-name: "Chris Coyier";
+}
+.div1{
+    background-color: var(--element1-background-color);
+    border: var(--border-color);
+    margin: var(--margin);
+    font-size: var(--font-size);
+    width:var(--width);
+    margin-left:var(--margin-left);
+}
+.div2{
+    background-color: var(--element2-background-color);
+    border: var(--border-color);
+    margin: var(--margin);
+    font-size: var(--font-size);
+    width:var(--width);
+    margin-left:var(--margin-left);
+}
+.div3{
+    background-color: var(--element3-background-color);
+    border: var(--border-color);
+    margin: var(--margin);
+    font-size: var(--font-size);
+    width:var(--width);
+    margin-left:var(--margin-left);
+}
